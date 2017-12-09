@@ -1,17 +1,32 @@
 <template>
-  <div class="home">
-    <h1>{{ msg }}</h1>
-   <a href="/photo">photo</a>
+  <div class="page">
+
+  <siteHeader></siteHeader>
+  <sideBar></sideBar>
+
   </div>
 </template>
 
 <script>
+import siteHeader from '@/components/organization/SiteHeader'
+import sideBar from '@/components/organization/SideBar'
+import store from '../store'
+
 export default {
-  name: 'Home',
+  name: 'DrawerMenu',
+  components: {
+    siteHeader, sideBar
+  },
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: '',
     }
+  },
+  methods: {
+    
+  },
+  computed: {
+
   }
 }
 </script>
