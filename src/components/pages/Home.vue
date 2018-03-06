@@ -2,6 +2,7 @@
   <div class="home">
     <h1>{{ msg }}</h1>
    <a href="/photo">photo</a>
+   <a href="/organization/SiteHeader">header</a>
   </div>
 </template>
 
