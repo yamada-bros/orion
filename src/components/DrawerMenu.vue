@@ -10,7 +10,7 @@
 <script>
 import siteHeader from '@/components/organization/SiteHeader'
 import sideBar from '@/components/organization/SideBar'
-import store from '../store'
+import store from '@/store'
 
 export default {
   name: 'DrawerMenu',

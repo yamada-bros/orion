@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import types from '../../store/action_type'
-import store from '../../store'
+import types from '@/store/action_type'
+import store from '@/store'
 export default {
   name: 'Header',
   data () {

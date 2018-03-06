@@ -8,9 +8,14 @@
 </template>
 
 <script>
+import drawerMenu from '@/components/header'
+import drawerMenu from '@/components/sidebar'
+
 export default {
   name: 'page',
-  component: 'header, sidebar',
+  components: {
+    header, sidebar
+  },
   data () {
     return {
       msg: ''
