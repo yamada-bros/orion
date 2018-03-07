@@ -35,7 +35,7 @@ ul {
   padding: 0;
 }
 li {
-  margin: 10px;
+  margin: 1em;
 }
 a {
   color: #42b983;
@@ -43,10 +43,20 @@ a {
 
 .sidebar {
     opacity: 0;
+    display: none;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, .5);
+    width: 40%;
+    font-size: 2em;
 }
 
 .active {
     opacity: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 2em;
+    display: inline-block;
 }
 
 </style>

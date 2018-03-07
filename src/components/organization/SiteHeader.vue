@@ -50,6 +50,9 @@ a {
 .header {
   display: flex;
   align-items: center;
+  background: #000;
+  color: #fff;
+  padding: 1em;
 }
 .header p {
   margin: 0 auto;
@@ -72,7 +75,7 @@ a {
   left: 0;
   width: 100%;
   height: 4px;
-  background-color: #333;
+  background-color: #fff;
   border-radius: 4px;
 }
 .menu-trigger span:nth-of-type(1) {
