@@ -39,11 +39,11 @@ $ make dressup-viron
 1. 
 
 - [] hoge1
-- [] hoge2
+- [ ] hoge2
 
 *hogehoge00*
 
-
+- [ ] 1
 
 
 
