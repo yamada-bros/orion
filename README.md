@@ -31,21 +31,31 @@ $ cd ../../local;
 $ make dressup-viron
 ```
 
-1. hogehoge
-1. hogehogehoghoehgo
-1. 
-1. 
-1. 
-1. 
+# wagon-background
+wagon background server
 
-- [] hoge1
-- [ ] hoge2
+# Description
+- wagon API サーバーです。
 
-*hogehoge00*
+# QuickStart
 
-- [ ] 1
+### api & web & oas
+```
+$ npm install
+$ cd ../../local;
+$ make dressup-web
+```
+### viron
+```
+$ npm install
+$ cd ../../local;
+$ make dressup-viron
+```
 
+# Tips
+タスクリスト
 
+`package.json#scripts`参照
 
 
 
